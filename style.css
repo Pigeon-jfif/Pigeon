@@ -1,6 +1,6 @@
-h1 {
+body {
     width:500px;
     margin: 0 auto;
-    background: gray;
+    background: dark-gray;
     text-align: center;
 }
