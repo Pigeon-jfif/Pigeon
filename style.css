@@ -1,5 +1,44 @@
-h1 {
-    width:500px;
-    margin: 0 auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#albums-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.album-container {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
+}
+
+.album-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.album-container h2, .album-container p {
+    margin: 5px 0;
+}
+
+.album-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
 }
